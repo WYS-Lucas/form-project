@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const dobInput = document.querySelector('#dob');
     const graduationDateInput = document.querySelector('#graduationDate');
     const allCheckboxInput = document.querySelectorAll('input[type="checkbox"]');
-    const favouriteCoursesInput = Array.from(allCheckboxInput).filter(checkbox => checkbox.id !== 'selectAll');
+    const favouriteCoursesInput = Array.from(allCheckboxInput).filter(checkbox => checkbox.id !== 'selectAll'); // Always use "!==" instead of "!="
     const resetButton = document.querySelector('#resetButton');
     const otherInput = document.querySelector('#other');
     const selectAllInput = document.querySelector('#selectAll');
