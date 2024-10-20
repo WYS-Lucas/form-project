@@ -1,2 +1,3 @@
-# frontend-projects
-A few frontend projects regarding html, css, javascript and react.js
+page-form
+A frontend project of creating a form.
+This page can generate a summary of information in the form when valid.
