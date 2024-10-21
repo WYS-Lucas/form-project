@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+}
+
+.page-container {
+  width: 975px;
+  height: 610px;
+  background-color: rgb(255,255,255);
+}
+
+.top-container {
+  width: 975px;
+  height: 53px;
+  background-color: rgb(240,241,243);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.top-line {
+  width: 975px;
+  height: 2px;
+  background-color: rgb(223,223,224);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(8,104,181);
+}
+
+#bodytitle {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 25px;
+  line-height: 150%;
+  font-size: 1rem;
+}
+
+.outer {
+  width: 820px;
+  height: 219px;
+  border: 1px solid rgb(235,235,235);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner {
+    height: calc(218px/3);
+    border: 1px solid rgb(235,235,235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    text-align: center;
+    align-items: center;
+}
+
+.cell {
+    width: 181px;
+    background-color: rgb(242,242,242);
+}
+
+.select-box {
+    width: 230px;
+    justify-content: flex-start;
+}
+
+select {
+    width: 165px;
+    height: 40px;
+    border: 2px solid rgb(235,235,235);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 14px;
+    -webkit-appearance: none;
+    appearance: none;
+    padding-right: 30px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    fill: rgb(45, 45, 45);
+}
+
+.select-wrapper {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.select-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    right: 30px;
+    width: 2px;
+    background-color: rgb(235,235,235); 
+}
+
+.big-box {
+    width: 640px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#text-only {
+    margin-left: 25px;
+}
